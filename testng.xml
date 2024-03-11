@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ShopNowAutomation for chrome browser">
+        <parameter name="browserType" value="chrome"/>
+        <classes>
+            <class name="com.naveennaveen.shopnowautomation.tests.CheckOutTest">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
